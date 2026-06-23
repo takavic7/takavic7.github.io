@@ -141,3 +141,10 @@ ul {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+/* Corrección para unificar el espacio debajo de los títulos (párrafos, listas y listas ordenadas) */
+.contenido-principal p,
+.contenido-principal ul,
+.contenido-principal ol {
+    margin-top: 0;
+}
